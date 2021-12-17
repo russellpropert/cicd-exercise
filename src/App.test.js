@@ -16,7 +16,7 @@ test('ToDo1', () => {
 
   // This is a programmatic test
 
-  expect(root.querySelector('h1').textContent).toBe('To-do List');
+  expect(root.querySelector('h1').textContent).toBe('To-do-List');
   expect(root.querySelector('label').textContent).toBe('Add to-do item');
   expect(root.querySelector('button').textContent).toBe('Submit');
   expect(root.getElementsByClassName('input')[0].getAttribute('placeholder')).toBe('Add Todo ...');
